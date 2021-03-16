@@ -1,0 +1,78 @@
+.logo {
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(dodgerblue, blue);
+  font-size: 15px;
+}
+.navigation a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+.navigation p {
+  padding: 20px;
+}
+
+.headerContainer {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: dodgerblue;
+}
+.headerContainer .headerMaskTitle {
+  width: 500px;
+  margin-left: 40px;
+}
+.headerContainer button {
+  color: black;
+  background-color: yellow;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.bodyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.bodyContainer .rang1 {
+  display: flex;
+  width: 100%;
+}
+.bodyContainer .wetsuits, .bodyContainer .mask {
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+}
+.bodyContainer .mask {
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+
+.bodyContainer2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.bodyContainer2 .rang2 {
+  display: flex;
+  width: 100%;
+}
+.bodyContainer2 .wetsuits2, .bodyContainer2 .mask2 {
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+}
+.bodyContainer2 .mask2 {
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+
+/*# sourceMappingURL=app.css.map */
