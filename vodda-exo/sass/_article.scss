@@ -1,0 +1,26 @@
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center ;
+
+  & .wetsuits1, & .diving1 {
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+  }
+
+  & .wetsuits, & .diving, & .wetsuits1, & .diving1 {
+    border-bottom: 1px solid lightgrey;
+    padding: 20px;
+  }
+
+  & .wetsuitsDescription, & .divingDescription {
+    text-align: center;
+  }
+
+  & h6 {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+}

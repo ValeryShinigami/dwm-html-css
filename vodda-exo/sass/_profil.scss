@@ -1,0 +1,35 @@
+.profil {
+  background: #2196f3;
+  display: flex;
+  justify-content: space-around;
+  height: 40%;
+
+  & img {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+  }
+
+  & .descriptionMask {
+    width: 50%;
+    margin-left: -80px;
+
+    & p {
+      padding: 10px;
+      color: white;
+    }
+
+    & h2 {
+      color: white;
+      margin-top: 10px;
+    }
+
+    & button {
+      border-radius: 20px;
+      background-color: yellow;
+      padding: 15px;
+    }
+  }
+
+}
+

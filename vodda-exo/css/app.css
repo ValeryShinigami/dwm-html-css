@@ -8,6 +8,7 @@
 .header .header__logo {
   text-align: center;
   background-color: white;
+  padding: 20px;
 }
 .header a {
   color: white;
@@ -36,14 +37,117 @@ body {
 }
 
 .wrapper {
-  background-color: yellow;
+  background-color: white;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   width: 70%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /*font-family: 'Roboto Condensed', sans-serif;*/
+.profil {
+  background: #2196f3;
+  display: flex;
+  justify-content: space-around;
+  height: 40%;
+}
+.profil img {
+  width: 180px;
+  height: 180px;
+  padding: 10px;
+}
+.profil .descriptionMask {
+  width: 50%;
+  margin-left: -80px;
+}
+.profil .descriptionMask p {
+  padding: 10px;
+  color: white;
+}
+.profil .descriptionMask h2 {
+  color: white;
+  margin-top: 10px;
+}
+.profil .descriptionMask button {
+  border-radius: 20px;
+  background-color: yellow;
+  padding: 15px;
+}
+
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.article .wetsuits1, .article .diving1 {
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+.article .wetsuits, .article .diving, .article .wetsuits1, .article .diving1 {
+  border-bottom: 1px solid lightgrey;
+  padding: 20px;
+}
+.article .wetsuitsDescription, .article .divingDescription {
+  text-align: center;
+}
+.article h6 {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.reviews {
+  text-align: center;
+  margin-top: 30px;
+}
+.reviews p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+.reviews a {
+  color: #42a5f5;
+}
+.reviews a:hover {
+  color: blue;
+}
+
+.temoignageContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.temoignageContainer .temoignage1 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.temoignageContainer .temoignage1 .temoignageTexte {
+  text-align: center;
+}
+.temoignageContainer .temoignage1 .temoignageName {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.temoignageContainer .temoignage1 .temoignageStar {
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid lightgrey;
+  margin-top: 20px;
+}
+.footer .footer__logo, .footer .footer__description, .footer .footer__join {
+  padding: 20px;
+}
+.footer .footer__logo p, .footer .footer__description p, .footer .footer__join p {
+  padding: 5px;
+}
 
 /*# sourceMappingURL=app.css.map */

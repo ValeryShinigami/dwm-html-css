@@ -1,4 +1,10 @@
-@import "_header";
-@import "_main";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+@import "header";
+@import "main";
 /*font-family: 'Roboto Condensed', sans-serif;*/
+@import "profil";
+@import "article";
+@import "reviews";
+@import "temoignage";
+@import "footer";
