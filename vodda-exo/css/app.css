@@ -22,7 +22,23 @@
   cursor: grab;
   background: deepskyblue;
 }
+.header .navbar {
+  display: none;
+}
 
+/* MEDIA QUERIES NAVIGATION */
+@media (max-width: 995px) {
+  nav {
+    display: none;
+  }
+
+  .header .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#90caf9, #42a5f5);
+  }
+}
 *,
 *::before,
 *::after {
@@ -50,7 +66,6 @@ body {
   background: #2196f3;
   display: flex;
   justify-content: space-around;
-  height: 40%;
 }
 .profil img {
   width: 180px;
@@ -75,6 +90,34 @@ body {
   padding: 15px;
 }
 
+/************ MEDIA QUERIES ************************/
+@media (max-width: 995px) {
+  .profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .profil .descriptionMask {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profil .descriptionMask p {
+    text-align: center;
+  }
+  .profil button {
+    border-radius: 20px;
+    background-color: yellow;
+    margin: 10px;
+  }
+  .profil h2 {
+    text-align: center;
+  }
+}
 .article {
   display: flex;
   flex-wrap: wrap;
@@ -136,6 +179,17 @@ body {
   margin-bottom: 10px;
 }
 
+/************ MEDIA QUERIES TEMOIGNAGE *******************/
+@media (max-width: 995px) {
+  .temoignageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .temoignageContainer .temoignage1 {
+    padding: 10px;
+  }
+}
 .footer {
   display: flex;
   align-items: center;
@@ -148,6 +202,16 @@ body {
 }
 .footer .footer__logo p, .footer .footer__description p, .footer .footer__join p {
   padding: 5px;
+}
+
+/* ************** MEDIA QUERIES ************* */
+@media (max-width: 995px) {
+  .footer .footer__logo, .footer .footer__description {
+    display: none;
+  }
+  .footer .footer__join {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

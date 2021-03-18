@@ -13,3 +13,18 @@
     }
   }
 }
+
+/* ************** MEDIA QUERIES ************* */
+
+@media (max-width: 995px) {
+  .footer {
+    & .footer__logo, & .footer__description {
+      display: none;
+    }
+
+    & .footer__join {
+      text-align: center;
+
+    }
+  }
+}

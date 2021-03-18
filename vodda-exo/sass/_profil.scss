@@ -2,7 +2,7 @@
   background: #2196f3;
   display: flex;
   justify-content: space-around;
-  height: 40%;
+
 
   & img {
     width: 180px;
@@ -33,3 +33,38 @@
 
 }
 
+/************ MEDIA QUERIES ************************/
+
+@media (max-width: 995px) {
+  .profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & .descriptionMask {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+
+      & p {
+        text-align: center;
+      }
+    }
+
+    & button {
+      border-radius: 20px;
+      background-color: yellow;
+      margin: 10px;
+    }
+
+    & h2 {
+      text-align: center;
+    }
+
+  }
+
+}

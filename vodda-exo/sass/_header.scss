@@ -26,4 +26,31 @@
     cursor: grab;
     background: deepskyblue;
   }
+
+  & .navbar {
+    display: none;
+  }
+
 }
+
+/* MEDIA QUERIES NAVIGATION */
+
+@media (max-width: 995px) {
+  nav {
+    display: none;
+  }
+  .header {
+    & .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(#90caf9, #42a5f5);
+
+    }
+
+  }
+
+}
+
+
+
