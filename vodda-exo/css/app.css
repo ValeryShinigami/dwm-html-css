@@ -89,6 +89,10 @@ body {
   background-color: yellow;
   padding: 15px;
 }
+.profil .descriptionMask button a {
+  text-decoration: none;
+  color: black;
+}
 
 /************ MEDIA QUERIES ************************/
 @media (max-width: 995px) {
@@ -212,6 +216,64 @@ body {
   .footer .footer__join {
     text-align: center;
   }
+}
+.product {
+  display: flex;
+  justify-content: space-around;
+}
+.product .productImage {
+  border: 1px solid black;
+}
+.product .productDesciption {
+  border: 1px solid black;
+  width: 100%;
+}
+.product .productDesciption .ref {
+  color: gray;
+}
+.product .title, .product .color {
+  font-weight: bold;
+}
+.product .littleImage img {
+  width: 50px;
+  height: 50px;
+}
+.product .littleImage .blue {
+  border: 2px solid dodgerblue;
+}
+.product .price {
+  display: flex;
+}
+.product .price .rang2 {
+  margin-left: 10px;
+  font-size: 15px;
+  color: gray;
+  text-decoration: line-through;
+}
+.product .price p {
+  font-size: 20px;
+  color: dodgerblue;
+}
+.product .panier {
+  display: flex;
+  width: 100%;
+}
+.product .panier .cart {
+  background-color: dodgerblue;
+  color: white;
+  width: 40%;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+.product .panier .number {
+  width: 9%;
+  border: 1px solid black;
+  text-align: center;
+}
+.product .panier .add {
+  color: dodgerblue;
+  text-decoration: underline dotted gray;
 }
 
 /*# sourceMappingURL=app.css.map */

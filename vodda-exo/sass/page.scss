@@ -1,0 +1,81 @@
+.product {
+  display: flex;
+  justify-content: space-around;
+
+
+  & .productImage {
+    border: 1px solid black;
+  }
+
+  & .productDesciption {
+    border: 1px solid black;
+    width: 100%;
+
+    & .ref {
+      color: gray;
+    }
+
+  }
+
+  & .title, & .color {
+    font-weight: bold;
+  }
+
+  & .littleImage {
+    & img {
+      width: 50px;
+      height: 50px;
+
+    }
+
+    & .blue {
+      border: 2px solid dodgerblue;
+    }
+  }
+
+  & .price {
+    display: flex;
+
+    & .rang2 {
+      margin-left: 10px;
+      font-size: 15px;
+      color: gray;
+      text-decoration: line-through;
+    }
+
+    & p {
+      font-size: 20px;
+      color: dodgerblue;
+    }
+
+  }
+
+  & .panier {
+    display: flex;
+    width: 100%;
+
+    & .cart {
+      background-color: dodgerblue;
+      color: white;
+      width: 40%;
+      text-align: center;
+      margin-left: 5px;
+      margin-right: 20px;
+
+    }
+
+    & .number {
+      width: 9%;
+      border: 1px solid black;
+      text-align: center;
+    }
+
+    & .add {
+      color: dodgerblue;
+      text-decoration: underline dotted gray;
+
+    }
+  }
+
+
+}

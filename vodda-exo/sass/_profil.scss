@@ -28,6 +28,10 @@
       border-radius: 20px;
       background-color: yellow;
       padding: 15px;
+      & a {
+        text-decoration: none;
+        color: black;
+      }
     }
   }
 
