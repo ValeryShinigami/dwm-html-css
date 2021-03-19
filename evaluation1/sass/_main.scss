@@ -1,0 +1,23 @@
+/* initialisation de la page */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 70%;
+  min-height: 100vh;
+}
+
+body {
+  background-color: darkgray;
+  font-family: 'Cormorant Unicase', serif;
+}
