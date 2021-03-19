@@ -1,0 +1,52 @@
+.asideRight {
+  margin-left: 10px;
+
+  & .section {
+    border-bottom: 1px dotted green;
+    padding: 10px;
+    & h6 {
+      font-size: 15px;
+      color: #ff9100;
+      margin-bottom: 10px;
+
+    }
+    & .article1 {
+      display: flex;
+      margin-bottom: 10px;
+      & .description {
+
+        & h5 {
+          color: #4fc3f7 ;
+          margin-bottom: 5px;
+        }
+        & p {
+          text-align: justify;
+          font-size: 12px;
+        }
+        & .fleche {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          padding: 5px;
+        }
+        & a {
+          text-decoration: none;
+          font-size: 12px;
+        }
+        & img {
+          margin-left: 5px;
+          border: none;
+
+        }
+      }
+      & .articleImage {
+        & p {
+          font-size: 12px;
+        }
+      }
+    }
+
+
+
+  }
+}

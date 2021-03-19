@@ -1,6 +1,3 @@
-.logo, .navbar {
-  border: 1px solid black;
-}
 
 .navbar {
   display: flex;
@@ -28,7 +25,6 @@
   color: white;
 
   & .container {
-    border: 1px solid black;
     display: flex;
     justify-content: space-evenly;
     background-image: url("../image/images/green_box_bg.gif");

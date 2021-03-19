@@ -1,0 +1,80 @@
+/* ******* start asideLeft ****** */
+
+.bodyContainer {
+  display: flex;
+  justify-content: space-around;
+
+  & .asideLeft {
+    width: 45%;
+    font-size: 12px;
+
+    & .asideLeftContain1 {
+      background-color: #f5f5f5;
+
+      & h5 {
+        padding-top: 10px;
+        font-size: 15px;
+        color: #ff9100;
+      }
+
+      & p {
+        text-align: justify;
+      }
+
+      & h5, & p {
+        margin: 5px;
+      }
+
+      & .asideText {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        border-bottom: 1px dotted green;
+
+        & p {
+          margin-left: 5px;
+          color: #0091ea;
+
+        }
+      }
+    }
+
+    & .asideLeftContain2 {
+      display: flex;
+      margin-top: 8px;
+
+      & img {
+        border: 1px solid lightgray;
+      }
+
+      & .link {
+        & p {
+          text-align: justify;
+          margin-left: 10px;
+        }
+
+        & .fleche {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          padding: 5px;
+
+          & a {
+            text-decoration: none;
+
+          }
+
+          & img {
+            border: none;
+            margin-left: 5px;
+          }
+        }
+
+
+      }
+
+    }
+  }
+
+
+}
