@@ -56,3 +56,16 @@
 
   }
 }
+/* ***************** MEDIA QUERIES ********************* */
+
+@media (max-width: 768px) {
+   .contactContainer {
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+
+  }
+
+}

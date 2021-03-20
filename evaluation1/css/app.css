@@ -162,6 +162,17 @@ footer img {
   padding: 10px;
 }
 
+/* ***************** MEDIA QUERIES ********************* */
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footerNav {
+    display: none;
+  }
+}
 /* ******* start asideLeft ****** */
 .bodyContainer {
   display: flex;
@@ -220,6 +231,17 @@ footer img {
   margin-left: 5px;
 }
 
+/* ************ media queries **************** */
+@media (max-width: 768px) {
+  .bodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e8f5e9;
+    border-left: 1px solid #e8f5e9;
+  }
+}
 .asideRight {
   margin-left: 10px;
 }
@@ -304,6 +326,16 @@ footer img {
 .contactContainer .searchContain .contact p {
   margin-top: 15px;
   font-size: 10px;
+}
+
+/* ***************** MEDIA QUERIES ********************* */
+@media (max-width: 768px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

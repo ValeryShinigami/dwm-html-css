@@ -69,12 +69,21 @@
             margin-left: 5px;
           }
         }
-
-
       }
-
     }
   }
+}
 
+/* ************ media queries **************** */
 
+@media (max-width: 768px) {
+  .bodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e8f5e9;
+    border-left: 1px solid #e8f5e9;
+
+  }
 }
