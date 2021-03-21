@@ -1,0 +1,28 @@
+.bandeau-h {
+  height: 64px;
+  color: white;
+  background-color: yellow;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.milieu {
+  display: flex;
+  justify-content: space-between;
+}
+.milieu .bandeau-v {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  background-color: cyan;
+  color: white;
+  border: 1px solid black;
+}
+.milieu .centre {
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=app.css.map */
